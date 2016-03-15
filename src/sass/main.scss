@@ -1,1 +1,37 @@
 /* CSS Entry Point */
+
+.app {
+  background-color: #fff;
+  margin: auto;
+  border: 1px solid #e5e5e5;
+  width: 50%;
+  div {
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    background-color: #f0f0f0;
+    margin: 10px;
+    height: 85px;
+    width: calc(100% - 40px);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    img {
+      height: 70px;
+      border-radius: 3px;
+      margin: 10px;
+    }
+    p {
+      color: #aaa;
+      font-size: 3em;
+      display: inline;
+      font-family: arial;
+      text-shadow: 1px 1px 1px white;
+    }
+  }
+}
+
+
+
+
+
+
